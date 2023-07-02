@@ -165,6 +165,47 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Create List - Depricated",
+			"id": "c86565ea-7851-47ff-9a7c-d9e8960b725f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/64a17a4300122e980735f47d/lists?name=Depricated&key={{key}}&token={{token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"64a17a4300122e980735f47d",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Depricated"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
