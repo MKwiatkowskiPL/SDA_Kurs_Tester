@@ -84,6 +84,46 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "UpdateDescription",
+			"id": "73ac60ad-69db-4b1b-a93f-2fd9072662b2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/64a17a4300122e980735f47d?key={{key}}&token={{token}}&desc=Tabela 1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"64a17a4300122e980735f47d"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "desc",
+							"value": "Tabela 1"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
